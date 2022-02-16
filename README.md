@@ -17,4 +17,4 @@ The tests run and pass, but then hang indefinitely until I kill the process:
 
 ![](docs/hanging.gif)
 
-I made a nearly-identical repository [here](https://github.com/shipstar/rspec-with-multiple-webdrivers) using RSpec to see if this is specifically an issue with the system test runner. `rails spec` passes without hanging in that repository.
+I made a nearly-identical repository [here](https://github.com/shipstar/rspec-with-multiple-webdrivers) using RSpec to see if this is specifically an issue with the Rails system test runner. `rails spec` also hangs in a similar manner using either `system` specs or `feature` specs.
